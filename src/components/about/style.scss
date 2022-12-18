@@ -1,0 +1,6 @@
+.about__text {
+  @media screen and (max-width: 768px) {
+    width: fit-content !important;
+    padding: 12px;
+  }
+}
