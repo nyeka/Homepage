@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
@@ -29,6 +30,7 @@ const Homepage = () => {
             marginTop: "20px",
           }}
         >
+          <GitHubIcon />
           <LinkedInIcon />
           <InstagramIcon />
         </Box>
